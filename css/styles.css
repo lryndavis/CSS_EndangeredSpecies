@@ -1,0 +1,512 @@
+@font-face {
+  font-family: 'Montserrat-Hairline';
+    src:  url('../montserrat/Montserrat-Hairline.otf') format('opentype');
+}
+
+header {
+  /*background-image: url("../img/header.jpg");
+  color: white;
+  padding: 7px;*/
+  color: black
+}
+
+.container {
+  position: relative;
+  font-family: 'Montserrat-Hairline';
+  box-sizing: border-box;
+  background-image: url('../img/watercolor.png');
+  background-repeat: no-repeat;
+  /*background-size: cover;*/
+  font-weight: 100;
+  text-transform: uppercase;
+  /*border: 1px solid red;*/
+  /*height: 100vh;*/
+  /*width: 1200px;*/
+  height: 1200px;
+  /*width: 150%;*/
+  /*width: 100vw;*/
+  }
+
+h1 {
+  font-size: 2em;
+  /*text-align: center;*/
+  padding-left: 75px;
+  /*color: #CC5730;*/
+}
+
+
+hr {
+  /*border-top: 1px solid #CC5730;*/
+  margin-left: 75px;
+  margin-right: 50px;
+}
+h2, p {
+  text-align: center;
+}
+
+/*BEAR AND BEAR:HOVER */
+
+
+#bear {
+  position: absolute;
+  max-width: 100px;
+  border-radius: 50%;
+  border: 2.2px solid black;
+  left: 1250px;
+  top: 375px;
+}
+.bear {
+    position: relative;
+    width: 300px;
+    height: 175px;
+    /*overflow: hidden;*/
+}
+.bear img {
+    width: 100%;
+    padding: 0;
+}
+.bear > div {
+    background-color: rgba(204,183,0,0.85);
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 185px;
+    left: 1150px;
+    -webkit-transition: opacity 0.3s linear;
+    /*text-shadow: #000 1px 1px 0;*/
+    color: #fff;
+}
+.bear:hover > div {
+    display: block;
+    opacity: 1.0;
+}
+.bear > div div {
+    padding: 10px 20px;
+}
+.bear h2 {
+    font-size: 1.2em;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+/*BISON AND BISON:HOVER */
+
+#bison {
+  position: absolute;
+  max-width: 100px;;
+  left: 300px;
+  top: 200px;
+  border-radius: 50%;
+  border: 2.2px solid black;
+}
+.bison {
+    position: relative;
+    width: 300px;
+    height: 175px;
+    /*overflow: hidden;*/
+}
+.bison img {
+    width: 100%;
+    padding: 0;
+}
+.bison > div {
+    background-color: rgba(81,49,113,0.85);
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 10px;
+    left: 200px;
+    -webkit-transition: opacity 0.3s linear;
+    /*text-shadow: #000 1px 1px 0;*/
+    color: #fff;
+}
+.bison:hover > div {
+    display: block;
+    opacity: 1.0;
+}
+.bison > div div {
+    padding: 10px 20px;
+}
+.bison h2 {
+    font-size: 1.2em;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+/*MANATEE AND MANATEE:HOVER */
+
+#manatee {
+  position: absolute;
+  max-width: 100px;
+  border-radius: 50%;
+  left: 450px;
+  top: 165px;
+  border: 2.2px solid black;
+}
+
+.manatee {
+    position: relative;
+    width: 300px;
+    height: 175px;
+    /*overflow: hidden;*/
+}
+.manatee img {
+    width: 100%;
+    padding: 0;
+}
+.manatee > div {
+    background-color: rgba(191,127,6,0.85);
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: -20px;
+    left: 450px;
+    -webkit-transition: opacity 0.3s linear;
+    /*text-shadow: #000 1px 1px 0;*/
+    color: #fff;
+}
+.manatee:hover > div {
+    display: block;
+    opacity: 1.0;
+}
+.manatee > div div {
+    padding: 10px 20px;
+}
+.manatee h2 {
+    font-size: 1.2em;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+/*JAGUAR AND JAGUAR:HOVER */
+
+#jaguar {
+  position: absolute;
+  max-width: 100px;
+  border-radius: 50%;
+  border: 2.2px solid black;
+  top: 165px;
+  left: 500px;
+}
+.jaguar {
+    position: relative;
+    width: 300px;
+    height: 175px;
+    /*overflow: hidden;*/
+}
+.jaguar img {
+    width: 100%;
+    padding: 0;
+}
+.jaguar > div {
+    background-color: rgba(178,0,0,0.85);
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 285px;
+    left: 415px;
+    -webkit-transition: opacity 0.3s linear;
+    /*text-shadow: #000 1px 1px 0;*/
+    color: #fff;
+}
+.jaguar:hover > div {
+    display: block;
+    opacity: 1.0;
+}
+.jaguar > div div {
+    padding: 10px 20px;
+}
+.jaguar h2 {
+    font-size: 1.2em;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+/*WILD ASS AND WILD ASS:HOVER */
+
+#wildass {
+  position: absolute;
+  max-width: 100px;
+  border-radius: 50%;
+  border: 2.2px solid black;
+  top: -125px;
+  left: 850px;
+}
+
+.wildass {
+    position: relative;
+    width: 300px;
+    height: 175px;
+    /*overflow: hidden;*/
+}
+.wildass img {
+    width: 100%;
+    padding: 0;
+}
+.wildass > div {
+    background-color: rgba(10,157,157,0.85);
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 760px;
+    -webkit-transition: opacity 0.3s linear;
+    /*text-shadow: #000 1px 1px 0;*/
+    color: #fff;
+}
+.wildass:hover > div {
+    display: block;
+    opacity: 1.0;
+}
+.wildass > div div {
+    padding: 10px 20px;
+}
+.wildass h2 {
+    font-size: 1.2em;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+
+/*BLUE WHALE AND BLUE WHALE:HOVER */
+
+#blueWhale {
+  position: absolute;
+  max-width: 100px;
+  border-radius: 50%;
+  border: 2.2px solid black;
+  top: -775px;
+  left: 775px;
+}
+
+.blueWhale {
+    position: relative;
+    width: 300px;
+    height: 175px;
+    /*overflow: hidden;*/
+}
+.blueWhale img {
+    width: 100%;
+    padding: 0;
+}
+.blueWhale > div {
+    background-color: rgba(191,127,6,0.85);
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: -815px;
+    left: 450px;
+    -webkit-transition: opacity 0.3s linear;
+    /*text-shadow: #000 1px 1px 0;*/
+    color: #fff;
+}
+.blueWhale:hover > div {
+    display: block;
+    opacity: 1.0;
+}
+.blueWhale > div div {
+    padding: 10px 20px;
+}
+.blueWhale h2 {
+    font-size: 1.2em;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+/*SAND CAT AND SAND CAT:HOVER*/
+
+#sandcat {
+  position: absolute;
+  max-width: 100px;
+  border-radius: 50%;
+  border: 2.2px solid black;
+  top: -700px;
+  left: 900px;
+}
+
+.sandcat {
+    position: relative;
+    width: 300px;
+    height: 175px;
+    /*overflow: hidden;*/
+}
+.sandcat img {
+    width: 100%;
+    padding: 0;
+}
+.sandcat > div {
+    background-color: rgba(32,146,89,0.85);
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: -890px;
+    left: 930px;
+    -webkit-transition: opacity 0.3s linear;
+    /*text-shadow: #000 1px 1px 0;*/
+    color: #fff;
+}
+.sandcat:hover > div {
+    display: block;
+    opacity: 1.0;
+}
+.sandcat > div div {
+    padding: 10px 20px;
+}
+.sandcat h2 {
+    font-size: 1.2em;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+/*HUMPBACK WHALE AND SHUMPBACK WHALE:HOVER*/
+
+#humpback {
+  position: absolute;
+  max-width: 100px;
+  border-radius: 50%;
+  border: 2.2px solid black;
+  top: -375px;
+  left: 1100px;
+}
+
+.humpback {
+    position: relative;
+    width: 300px;
+    height: 175px;
+    /*overflow: hidden;*/
+}
+.humpback img {
+    width: 100%;
+    padding: 0;
+}
+.humpback > div {
+    background-color: rgba(191,127,6,0.85);
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: -250px;
+    left: 990px;
+    -webkit-transition: opacity 0.3s linear;
+    /*text-shadow: #000 1px 1px 0;*/
+    color: #fff;
+}
+.humpback:hover > div {
+    display: block;
+    opacity: 1.0;
+}
+.humpback > div div {
+    padding: 10px 20px;
+}
+.humpback h2 {
+    font-size: 1.2em;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+/*
+MARKHOR AND MARKHOR:HOVER*/
+
+#markhor {
+  position: absolute;
+  max-width: 100px;
+  border-radius: 50%;
+  border: 2.2px solid black;
+  top: -950px;
+  left: 1100px;
+}
+
+.markhor {
+    position: relative;
+    width: 300px;
+    height: 175px;
+    /*overflow: hidden;*/
+}
+.markhor img {
+    width: 100%;
+    padding: 0;
+}
+.markhor > div {
+    background-color: rgba(204,183,0,0.85);
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: -830px;
+    left: 1000px;
+    -webkit-transition: opacity 0.3s linear;
+    /*text-shadow: #000 1px 1px 0;*/
+    color: #fff;
+}
+.markhor:hover > div {
+    display: block;
+    opacity: 1.0;
+}
+.markhor > div div {
+    padding: 10px 20px;
+}
+.markhor h2 {
+    font-size: 1.2em;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+#kangaroo {
+  position: absolute;
+  max-width: 100px;
+  border-radius: 50%;
+  border: 2.2px solid black;
+  top: -850px;
+  left: 1350px;
+}
+
+.kangaroo {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    /*overflow: hidden;*/
+}
+.kangaroo img {
+    width: 100%;
+    padding: 0;
+}
+.kangaroo > div {
+    background-color: rgba(159,4,97,0.85);
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: -885px;
+    left: 1475px;
+    -webkit-transition: opacity 0.3s linear;
+    /*text-shadow: #000 1px 1px 0;*/
+    color: #fff;
+}
+.kangaroo:hover > div {
+    display: block;
+    opacity: 1.0;
+}
+.kangaroo > div div {
+    padding: 10px 20px;
+}
+.kangaroo h2 {
+    font-size: 1.2em;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
